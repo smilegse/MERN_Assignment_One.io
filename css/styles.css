@@ -1,0 +1,72 @@
+body {
+    padding-top: 76px; /* Adjusted for fixed navbar height */
+  }
+
+
+  /* Custom styles for the banner */
+
+  .img-logo{
+    width: 50px;
+    border-radius: 50%;
+  }
+
+  .banner {
+      background-image: url('../img/banner.jpg'); /* Add your banner image URL */
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 100px 20px;
+  }
+
+  /* Custom styles for the cards */
+ .card{
+  margin-bottom: 20px;
+ }
+
+ .card-img{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
+
+ .card-text{
+  text-align: justify;
+ }
+
+  /* Custom styles for the footer */
+  footer {
+    background-color: #2b2b2b;
+    padding: 20px 0;
+    text-align: center;
+    color: #adb5bd;
+  }
+
+  .ageInput{
+    padding: 0 0.75rem;
+    padding-top: .20rem;
+    padding-bottom: .40rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    width: 50%;
+    color: var(--bs-body-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    border-radius: var(--bs-border-radius);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+
+  .ageButton{
+    margin-top:-5px;
+    margin-left: 10px;
+  }
+
+  .footer-title-header{
+    text-decoration: underline;
+  }
